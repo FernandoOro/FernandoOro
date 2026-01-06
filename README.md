@@ -1,55 +1,34 @@
-# 👋 ¡Hola! Soy Fernando Orozco
+### Hi there, I'm Uriel Fernando 👋
+**Backend Architect & AI Engineer** from Colombia 🇨🇴
 
-🎓 **Ingeniero de Sistemas** con experiencia en el diseño de arquitecturas backend modernas, ciencia de datos y automatización. Me especializo en crear puentes entre la **Inteligencia Artificial** y sistemas robustos de software, utilizando Python, contenedores y la nube.
-
----
-
-## 🚀 Stack Tecnológico
-
-| Dominio | Tecnologías |
-|---------|-------------|
-| **Lenguajes** | 🐍 Python, 🟨 JavaScript, 🟦 TypeScript (Básico) |
-| **Backend & Web** | ⚡ FastAPI, 🌐 SvelteKit, 🛠️ Node.js |
-| **Data & AI** | 🔥 PyTorch, 🧠 TensorFlow, 🐼 Pandas, 🤖 Scikit-learn |
-| **Bases de Datos** | 🐘 PostgreSQL, 🍃 MongoDB, 🔥 Firebase, 🔴 Redis |
-| **DevOps & Cloud** | 🐳 Docker, 🐙 GitHub Actions, ☁️ GCP, ☁️ AWS |
+I specialize in designing scalable **Microservices**, **Event-Driven Architectures**, and high-performance **APIs** using Python. My focus is on **Domain-Driven Design (DDD)** and bridging the gap between Software Engineering and AI.
 
 ---
 
-## 🤖 Data Science & IA
-*Proyectos enfocados en Deep Learning, análisis de datos y agentes inteligentes.*
+### 🛠 Tech Stack & Tools
 
-| Proyecto | Descripción | Tech Stack |
-|:---|:---|:---|
-| [📊 **Trading AI Multitemporal**](https://github.com/usuario/trading-ai-multitemporal) | Sistema de trading basado en **Transformers** que analiza múltiples temporalidades para predicción de mercados. | `Python` `PyTorch` `Pandas` |
-| [🤖 **Agentes con Google ADK**](https://github.com/usuario/google-adk-agents) | Orquestación de agentes inteligentes utilizando el Agent Development Kit de Google y LLMs. | `Python` `Gemini` `Google ADK` |
+**Backend & Architecture**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
+![Microservices](https://img.shields.io/badge/Architecture-Microservices-blue)
+![DDD](https://img.shields.io/badge/Pattern-DDD-orange)
 
-## 🛠️ Backend & Arquitectura
-*Desarrollo de APIs, Microservicios y Sistemas SaaS.*
+**Data & AI**
+![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
 
-| Proyecto | Descripción | Tech Stack |
-|:---|:---|:---|
-| [🌐 **Backend SaaS con FastAPI**](https://github.com/usuario/fastapi-backend-saas) | API robusta con autenticación (OAuth2), gestión de planes, suscripciones y pasarela de pagos. | `FastAPI` `Firebase` `Stripe` |
-
-## ☁️ DevOps & Infraestructura
-*Automatización, CI/CD y Despliegue en la nube.*
-
-| Proyecto | Estado | Tech Stack |
-|:---|:---|:---|
-| 🚧 **Infraestructura como Código** | *Próximamente: Despliegue automatizado de microservicios con Terraform y K8s.* | `Docker` `K8s` `Terraform` |
-| 🚧 **Pipeline CI/CD Seguro** | *Próximamente: Flujo de integración continua con análisis de vulnerabilidades.* | `GitHub Actions` `SonarQube` |
+**Infra & DevOps**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=flat&logo=redis&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white)
 
 ---
 
-## 📚 En aprendizaje continuo
-Actualmente estoy profundizando mis conocimientos en:
-- 🛡️ **Ciberseguridad:** Auditoría ISO/IEC 27001 y Seguridad Ofensiva/Defensiva.
-- 🐳 **Orquestación avanzada:** Kubernetes y patrones de arquitectura en GCP.
-- 🤖 **AI Agents:** Frameworks de orquestación como CrewAI.
+### 🔭 Current Focus
+* Developing strict **Clean Architecture** templates for FastAPI services.
+* Integrating **LLMs** into traditional SaaS workflows via specialized agents.
 
----
-
-## 📫 Contacto
-¿Te interesa colaborar o charlar sobre tecnología?
-- 💼 [LinkedIn](https://linkedin.com/in/tuusuario)
-- 🌐 [Portafolio completo](https://tusitio.com)
+### 📫 Connect with me
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/uriel-fernando-orozco-castillo)
