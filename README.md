@@ -1,65 +1,81 @@
 <div align="center">
 
-<!-- Typing SVG header -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=378ADD&center=true&vCenter=true&width=600&lines=Fernando+Orozco+%7C+Backend+Architect;Building+low-latency+systems+in+Rust;AI+Engineer+%7C+DDD+Practitioner;Open+to+Remote+%26+Staff+Roles)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=378ADD&center=true&vCenter=true&width=650&lines=Fernando+Orozco+%E2%80%94+AI+Engineer+%26+Backend+Architect;Multi-LLM+systems+%7C+Production+AI+%7C+DDD;Building+AI+that+ships%2C+not+just+experiments)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-### 👋 About me
+### 👋 Who I am
 
-Backend Architect & AI Engineer from Colombia 🇨🇴, focused on the intersection of **high-performance systems** and **applied AI**.
+I'm an **AI Engineer & Backend Architect** from Colombia 🇨🇴 who designs systems where AI actually works in production — not just in notebooks.
 
-- 🦀 Building a sub-millisecond order execution engine in **Rust** — hexagonal architecture, dual fast/slow path, and local ML inference
-- 🤖 Designing multi-agent systems that integrate **local LLMs** with external APIs for macroeconomic sentiment analysis
-- 🏗️ DDD & Clean Architecture practitioner — I design systems that stay maintainable as they scale
-- 🌎 Available for **remote senior/staff roles** and high-impact consulting projects
+My work sits at the intersection of software engineering discipline and applied AI: multi-LLM orchestration, NLP pipelines, agentic systems, and the backend infrastructure that makes them reliable at scale.
+
+- 🤖 Built a **production SaaS platform** integrating OpenAI, Claude & Vertex AI with adapters, fallbacks, guardrails, and cost tracking
+- 🧠 Applied **RoBERTa + 50k USPTO patent data** to make complex legal language accessible to non-experts
+- 📊 Designed **ML systems with real engineering judgment** — knowing when Linear Regression beats XGBoost matters more than knowing how to run XGBoost
+- 🏗️ DDD & Clean Architecture practitioner — AI features that don't rot your codebase over time
+- 🌎 Available for **remote senior / staff roles** and AI consulting projects
 
 ---
 
-### 🛠️ Tech Stack
+### 🛠️ Stack
 
-**Systems & Backend**
+**AI / LLM Engineering**
 
-[![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
-
-**AI / ML**
-
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)](https://openai.com/)
+[![Anthropic Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=flat)](https://anthropic.com/)
+[![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat&logo=googlecloud&logoColor=white)](https://cloud.google.com/vertex-ai)
 [![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-yellow?style=flat)](https://huggingface.co/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat&logo=openai&logoColor=white)](https://openai.com/)
 
-**Architecture & Patterns**
+**Vector DBs & RAG**
 
-[![Microservices](https://img.shields.io/badge/Architecture-Microservices-blue)](https://microservices.io/)
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat)](https://www.trychroma.com/)
+[![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat)](https://qdrant.tech/)
+
+**Backend & Architecture**
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
+
+**Patterns**
+
 [![DDD](https://img.shields.io/badge/Pattern-DDD-orange)](https://en.wikipedia.org/wiki/Domain-driven_design)
 [![Hexagonal](https://img.shields.io/badge/Pattern-Hexagonal_Arch-purple)](https://alistair.cockburn.us/hexagonal-architecture/)
-[![Event-Driven](https://img.shields.io/badge/Pattern-Event--Driven-green)](https://martinfowler.com/articles/201701-event-driven.html)
+[![Multi-LLM](https://img.shields.io/badge/Pattern-Multi--LLM_Orchestration-blue)]()
 
-**Infrastructure & DevOps**
+**Infra & Observability**
 
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Redis](https://img.shields.io/badge/Redis-DD0031?style=flat&logo=redis&logoColor=white)](https://redis.io/)
+[![GCP Cloud Run](https://img.shields.io/badge/GCP_Cloud_Run-4285F4?style=flat&logo=googlecloud&logoColor=white)](https://cloud.google.com/run)
+[![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry)](https://opentelemetry.io/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2671E5?style=flat&logo=githubactions&logoColor=white)](https://github.com/features/actions)
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Selected work
 
-| Project | Tech | Highlight |
+| Project | What it actually does | Key decisions |
 |---|---|---|
-| 🦀 **High-Frequency Trading Engine** | Rust, ArcSwap, Tokio | ~12µs median tick latency, hexagonal arch, async fast/slow path |
-| 🤖 **AI SaaS Platform** | FastAPI, Firebase, GPT-4, Claude | Multi-LLM orchestration, 3 providers integrated, production-grade |
-| 📊 **Retail Sales Prediction** | Python, Scikit-learn, Pandas | Justified model selection over complexity for limited-data scenarios |
-| 🏗️ **Clean Architecture FastAPI Template** | Python, DDD, Docker | Reusable template for production microservices |
+| 🤖 [**ai-saas-case-study**](https://github.com/FernandoOro/ai-saas-case-study) | Multi-LLM SaaS: OpenAI + Claude + Vertex AI with adapters, fallbacks, guardrails & cost tracking | Provider-agnostic adapter pattern, ChromaDB + Qdrant for vector search, Stripe webhooks, OpenTelemetry |
+| 🧠 [**accesibilidad_sintentica**](https://github.com/FernandoOro/accesibilidad_sintentica) | RoBERTa fine-tuning on 50k USPTO patents to translate legal/technical language into plain English | NLP for social impact — making intellectual property accessible to non-experts |
+| 📊 [**retail-sales-prediction**](https://github.com/FernandoOro/retail-sales-prediction) | Retail sales ML pipeline with a bias-variance analysis that justifies simple over complex | Removed 50% duplicate rows (data leakage), R² 0.82 honest vs 0.99 inflated. Linear Regression > Random Forest with 55 records |
+| ⚙️ [**tradsys**](https://github.com/FernandoOro/tradsys) | AI-powered trading signal system with local model inference and external LLM sentiment analysis | Dual fast/slow path architecture, Dockerized, 119+ commits of active development |
 
 ---
 
-### 📊 GitHub Stats
+### 🔭 What I'm building now
+
+- Pushing `tradsys` toward production-grade observability: per-tick latency percentiles and back-pressure logic for the LLM slow path
+- Exploring **agentic workflows** beyond RAG — structured tool use, memory, and multi-step reasoning in production constraints
+- Working on a **Clean Architecture FastAPI template** that bakes in LLM integration patterns from day one
+
+---
+
+### 📊 Activity
 
 <div align="center">
 
@@ -73,14 +89,6 @@ Backend Architect & AI Engineer from Colombia 🇨🇴, focused on the intersect
 
 ---
 
-### 🔭 Currently building
-
-- A **Clean Architecture template** for FastAPI services — production-ready, DDD-first
-- **LLM agents** integrated into traditional SaaS workflows — beyond RAG, into real agentic behavior
-- Pushing the **Rust trading engine** toward production-grade observability (per-tick latency percentiles)
-
----
-
 ### 📫 Let's connect
 
 <div align="center">
@@ -88,7 +96,7 @@ Backend Architect & AI Engineer from Colombia 🇨🇴, focused on the intersect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/uriel-fernando-orozco-castillo)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FernandoOro)
 
-*Open to remote opportunities in senior/staff engineering, architecture consulting, and AI integration projects.*
+*Open to remote roles in AI Engineering, Backend Architecture, and LLM systems consulting.*
 
 </div>
 
