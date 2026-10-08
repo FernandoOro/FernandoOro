@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=378ADD&center=true&vCenter=true&width=680&lines=Fernando+Orozco+%E2%80%94+AI+Engineer+%26+Backend+Architect;5%2B+years+building+production+AI+systems;Multi-LLM+%7C+RAG+%7C+FastAPI+%7C+DDD;Bilingual+EN%E2%80%93ES+%7C+Open+to+remote)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=378ADD&center=true&vCenter=true&width=680&lines=Fernando+Orozco+%E2%80%94+AI+Engineer+%26+Backend+Architect;6+years+of+backend+experience;LLM+%7C+RAG+%7C+Spec-Driven+Development+%7C+DDD;Bilingual+EN%E2%80%93ES+%7C+Open+to+remote)](https://git.io/typing-svg)
 
 </div>
 
@@ -8,11 +8,14 @@
 
 ### 👋 Who I am
 
-**AI Engineer & Backend Architect** from Colombia 🇨🇴 with 5+ years building production systems — not prototypes.
+**AI Engineer & Backend Architect** from Colombia 🇨🇴 with 6 years of backend experience, building production systems — not prototypes.
 
 I specialize in integrating LLMs into real backend architectures: multi-provider orchestration, RAG pipelines, agentic workflows, and the infrastructure that keeps them reliable at scale. I apply DDD and Clean Architecture because AI features that rot your codebase aren't features.
 
-- 🤖 Currently at **Faststrat LLC** — building scalable APIs with LLM + RAG integration, RBAC security, and cloud infra on AWS/GCP
+I work **Spec-Driven**: every feature starts as a spec with acceptance criteria, becomes a plan and dependency-ordered tasks, and ships as small PRs linked back to them (280+ merged PRs at my current job). AI coding agents work inside the spec, not around it.
+
+- 🤖 Currently at **FastStrat** — building the backend of an AI marketing platform: LLM + RAG features, document ingestion for AI agents, async pipelines, RBAC security, cloud infra on GCP/AWS
+- 📚 Building **DocuMind**, a self-hostable multi-tenant RAG API — hybrid search (BM25 + RRF) reached 91.4% answer accuracy on a legal golden dataset ([showcase](https://github.com/FernandoOro/documind-showcase))
 - 🧠 Applied **RoBERTa on 50k USPTO patents** to make complex legal language accessible to non-experts
 - 🏗️ Designed **system core architecture from scratch** using DDD + async task queues (Celery + RabbitMQ) at Compraventa El Diamante
 - 🔬 Started in **AI research at UTP** — FastAPI microservices for ML model serving, PyTorch, HuggingFace, computer vision & NLP
@@ -30,6 +33,8 @@ I specialize in integrating LLMs into real backend architectures: multi-provider
 [![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-yellow?style=flat)](https://huggingface.co/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![RAG](https://img.shields.io/badge/Pattern-RAG-blueviolet?style=flat)]()
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)](https://www.langchain.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)](https://www.langchain.com/langgraph)
 
 **Vector DBs**
 
@@ -72,6 +77,9 @@ I specialize in integrating LLMs into real backend architectures: multi-provider
 
 | Project | What it does | Key decisions |
 |---|---|---|
+| 📚 [**documind-showcase**](https://github.com/FernandoOro/documind-showcase) | Self-hostable, multi-tenant enterprise RAG API with cited answers and a Next.js console | Hexagonal + DDD, hybrid search (BM25 + RRF in Qdrant), local embeddings + local LLM option, golden-dataset evaluation, built spec by spec with ADRs |
+| 📐 [**software-engineering-playbook**](https://github.com/FernandoOro/software-engineering-playbook) | My personal method from idea to product (in Spanish) | DDD + Hexagonal Architecture + Shape Up + Lean Startup, with templates for every phase |
+| 📓 [**engineering-journal**](https://github.com/FernandoOro/engineering-journal) | Weekly public log of what I build, the decisions I take and what I learn | Anonymized for client confidentiality |
 | 🤖 [**ai-saas-case-study**](https://github.com/FernandoOro/ai-saas-case-study) | Production SaaS with OpenAI + Claude + Vertex AI, guardrails, cost tracking, Stripe & observability | Provider-agnostic adapter pattern, ChromaDB + Qdrant, OpenTelemetry, GCP Cloud Run |
 | 🧠 [**accesibilidad_sintentica**](https://github.com/FernandoOro/accesibilidad_sintentica) | RoBERTa fine-tuned on 50k USPTO patents to translate legal/technical language into plain English | NLP for social impact — accessibility through transformer models |
 | 📊 [**retail-sales-prediction**](https://github.com/FernandoOro/retail-sales-prediction) | Retail sales ML pipeline with a principled model selection analysis | Detected & removed data leakage (50% duplicates). R² 0.82 honest vs 0.99 inflated. Linear Regression justified over Random Forest with 55 records |
@@ -122,7 +130,7 @@ FastAPI microservices for ML model serving. Computer vision and NLP prototypes w
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fernandferdinand@gmail.com)
 
 *Open to remote roles in AI Engineering, Backend Architecture, and LLM systems consulting.*  
-*Bilingual EN–ES · B2+ professional English · Available immediately*
+*Bilingual EN–ES · B2+ professional English*
 
 </div>
 
